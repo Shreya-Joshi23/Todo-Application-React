@@ -18,15 +18,15 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/Shreya-Joshi23/Todo-Application-React.git
 ```
-Navigate into the project directory:
+2. Navigate into the project directory:
   ```bash
   cd Todo-Application-React
 ```
-Install dependencies using npm:
+3. Install dependencies using npm:
 ```bash
 npm install
 ```
-Start the development server:
+4. Start the development server:
 ```bash
 npm start
 ```
