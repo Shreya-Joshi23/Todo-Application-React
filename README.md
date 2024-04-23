@@ -8,5 +8,27 @@
   <li>Notifications - notifiaction for each event in the todo list</li>
   <li>Active and completed - allows users to filter their active and completed tasks</li>
 </ul>
-<h2>Installation</h2>
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/Shreya-Joshi23/Todo-Application-React.git
+```
+Navigate into the project directory:
+  ```bash
+  cd Todo-Application-React
+```
+Install dependencies using npm:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm start
+```
+The application should now be running at http://localhost:3000.
 
