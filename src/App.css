@@ -1,0 +1,98 @@
+body{
+  background-image:url("https://media.istockphoto.com/id/1170650529/photo/completed-tasks-are-ticked-off-on-a-to-do-list.webp?b=1&s=170667a&w=0&k=20&c=SQwox82BzS104HU3wRAd_s7VFZVpjsVbQoEvMp8BsE0=") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100vh;
+  margin:0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.addcontainer {
+  margin-bottom: 20px;
+}
+
+.addcontainer input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addcontainer button,.status {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-style: normal;
+}
+
+li label {
+  flex-grow: 1;
+}
+
+li button {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+}
+
+li button:nth-child(1) {
+  background-color: #ffc107;
+  color: #333;
+  font-family: "Noto Sans", sans-serif;
+}
+
+li button:nth-child(2) {
+  background-color: #dc3545;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.comp {
+  color: gray;
+}
+
+.ncomp {
+  color: black;
+}
